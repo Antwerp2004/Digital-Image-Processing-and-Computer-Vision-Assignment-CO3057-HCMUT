@@ -47,10 +47,10 @@ The dataset is large and is **not included** in this GitHub repository. To run t
 1.  **Download the Dataset:** The dataset is available from the Open Science Framework (OSF) at the following link:
     *   [https://osf.io/xf3ka/](https://osf.io/xf3ka/)
 
-2.  **Folder Structure:** After downloading and unzipping, please organize the data into a `Data` folder at the same level as the `CODE` folder. The required structure is:
+2.  **Folder Structure:** After downloading and unzipping, please organize the data into a `Data` folder at the same level as the `Code` folder. The required structure is:
     ```
     /Computer Vision Assignment/
-    ├── CODE/         (This repository)
+    ├── Code/         (This repository)
     └── Data/
         ├── train/    # Contains training images and .json files
         ├── val/      # Contains validation images and .json files
@@ -63,8 +63,8 @@ This project is designed to be run in a Google Colab environment for ease of use
 
 ### 4.1. Setup in Google Colab
 
-1.  **Upload to Google Drive:** Upload the entire `CODE` folder and the `Data` folder (from the previous step) to your Google Drive, maintaining the directory structure described above.
-2.  **Open the Notebook:** In Google Drive, navigate to `CODE/` and open the `Execution.ipynb` notebook in Google Colab.
+1.  **Upload to Google Drive:** Upload the entire `Code` folder and the `Data` folder (from the previous step) to your Google Drive, maintaining the directory structure described above.
+2.  **Open the Notebook:** In Google Drive, navigate to `Code/` and open the `Execution.ipynb` notebook in Google Colab.
 
 ### 4.2. Running the Experiments
 
