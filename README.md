@@ -47,14 +47,15 @@ The dataset is large and is **not included** in this GitHub repository. To run t
 1.  **Download the Dataset:** The dataset is available from the Open Science Framework (OSF) at the following link:
     *   [https://osf.io/xf3ka/](https://osf.io/xf3ka/)
 
-2.  **Folder Structure:** After downloading and unzipping, please organize the data into a `Data` folder at the same level as the `Code` folder. The required structure is:
+2.  **Folder Structure:** After downloading and unzipping, please organize the data into a `Data` folder at the same level as the `board_detection` folder. The required structure is:
     ```
     /Computer Vision Assignment/
-    ├── Code/         (This repository)
-    └── Data/
-        ├── train/    # Contains training images and .json files
-        ├── val/      # Contains validation images and .json files
-        └── test/     # Contains test images and .json files
+    └── Code/         (This repository)
+        ├── board_detection
+        └── Data/
+            ├── train/    # Contains training images and .json files
+            ├── val/      # Contains validation images and .json files
+            └── test/     # Contains test images and .json files
     ```
 
 ## 4. How to Run the Project
